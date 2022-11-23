@@ -6,7 +6,8 @@ they can earn interest.
 
 
 
-## This is a really simple contract to use and modify.
+## This is a really simple contract to use and modify. Remix is recommended for this contract
+
 
 Step 1: Supply .001 ETH and hit the depositETH button (you can change this number in the contract)
 
@@ -19,4 +20,4 @@ Step 3: Press withdraw ETH to get your balance + profit! That's it!
 
 
 Note: This contract is made for the Goerli network. Addresses are hard coded for convience. Please refer to Aave docs in order to modify this contract
-for other networks
+for other networks.
