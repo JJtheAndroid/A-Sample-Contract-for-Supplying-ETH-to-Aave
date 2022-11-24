@@ -13,7 +13,9 @@ Step 1: Supply .001 ETH and hit the depositETH button (you can change this numbe
 
 Step 2: See your balance + profit with the seeWETHbalance function
 
-Step 3: Press withdraw ETH to get your balance + profit! That's it!
+Step 3: Press withdraw ETH
+
+Step 4: press collectfunds to receive balance + profit. That's it!
 
 
 
