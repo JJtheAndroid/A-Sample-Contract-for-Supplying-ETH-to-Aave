@@ -49,7 +49,6 @@ function WithdrawETH () external  {
 
     WETHgatewaycontract.withdrawETH(pooladdress, type(uint256).max, address(this));
 
-    selfdestruct(payable(msg.sender));
 }
 
 
@@ -66,6 +65,11 @@ function WithdrawETH () external  {
      return IERC20(aWETH).balanceOf(address(this));
 
  }
+
+ function collectfunds() external {
+     selfdestruct(payable(msg.sender));
+ }
+
 
 
 
